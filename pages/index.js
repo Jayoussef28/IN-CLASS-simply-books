@@ -12,12 +12,13 @@ function Home() {
 
   // TODO: Get user ID using useAuth Hook
   const { user } = useAuth();
+  console.log(user);
 
   // TODO: create a function that makes the API call to get all the books
   const getAllTheBooks = () => {
     getBooks(user.uid).then(setBooks);
   };
-
+  console.log(books);
   // TODO: make the call to the API to get all the books on component render
   useEffect(() => {
     getAllTheBooks();
