@@ -21,7 +21,7 @@ export default function NavBar() {
             <Link passHref href="/">
               <Nav.Link>Books</Nav.Link>
             </Link>
-            <Link passHref href="/">
+            <Link passHref href="/authors">
               <Nav.Link>Authors</Nav.Link>
             </Link>
             <Link passHref href="/profile">
